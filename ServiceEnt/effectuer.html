@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Se déplacer</title>
+        <link rel="stylesheet" href="css/effectuer.css">
+    </head>
+    <body>
+        <header>
+            <h1>
+                Ent
+            </h1>
+            <div class="oui">
+                <h3>
+                    Se Déplacer
+                </h3>
+                <p>
+                    Au sein de l'université, grâce a vous.
+                </p>
+                <a href="https://www.univ-lille.fr" >
+                    <img class="logo" src="img/logo_univ.png" height="75px" width="200px">
+                </a>
+                
+            </div>
+        </header>
+        <nav>
+            <ul class="menu" id="menu"> 
+              <li  class="menu_item-home"><a href="home.html"><span class="navtext">Accueil</span></a></li>
+              <li  class="menu_item-move"><a href="effectuer.html"><span class="navtext">Effectuer un Déplacement</span></a></li>
+              <li  class="menu_item-location"><a href="louer.html"><span class="navtext">Louer un véhicule</span></a></li>
+              <li  class="menu_item-proposition"><a href="proposer.html"><span class="navtext">Proposer un trajet</span></a></li>
+              <li  class="menu_item-information"><a href="info.html"><span class="navtext">Information</span></a></li>
+            </ul>
+        </nav>
+        <main>
+            <section class="wohin">
+                <div class="limit">
+                  <div class="wohin-header">
+                    <h2>Effectuer un trajet</h2>
+                    <a class="button-2" href="#">Votre trajet :</a>
+                  </div>
+              
+                  <div class="wohin-content">
+                    <input type="text" placeholder="Départ">
+                    <input type="time" id="app-time" placeholder="heure de départ" name="appt" min="09:00" max="18:00" required>
+                    <input type="text" placeholder="Arrivée">
+                    <input type="time" id="app-time" placeholder="heure de départ" name="appt" min="09:00" max="18:00" required>
+                    <input type="date" name="dateofbirth" id="dateofbirth">
+                  </div>
+                </div>
+              </section>
+              <section class="map">
+                <iframe src="http://umap.openstreetmap.fr/fr/map/parkings-velo-vlille-et-arrets-de-bus-et-metro-uni_251405#12/50.6328/3.1205" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </section>
+              <section class="form">
+                <form class="form-card">
+                    <fieldset class="form-fieldset">
+                        <legend class="form-legend">Formulaire</legend>
+                        <div class="form-radio form-radio-inline">
+                            <div class="form-radio-legend">Marge de recherche :</div>
+                            <label class="form-radio-label">
+                                <input name=pronoun class="form-radio-field" type="radio" />
+                                <i class="form-radio-button"></i>
+                                <span> +/- 10 minutes</span>
+                            </label>
+                            <label class="form-radio-label">
+                                <input name=pronoun class="form-radio-field" type="radio" />
+                                <i class="form-radio-button"></i>
+                                <span> +/- 20 minutes</span>
+                            </label>
+                            <label class="form-radio-label">
+                                <input name=pronoun class="form-radio-field" type="radio" />
+                                <i class="form-radio-button"></i>
+                                <span> +/- 30 minutes</span>
+                            </label>
+                            <label class="form-radio-label">
+                                <input name=pronoun class="form-radio-field" type="radio" />
+                                <i class="form-radio-button"></i>
+                                <span> +/- 1 heures</span>
+                            </label>
+                        </div>
+                        <div class="form-element form-input form-has-error">
+                            <input id="field-x98ezh-s6s2g8-vfrkgb-ngrhef-atfkop" class="form-element-field -hasvalue" placeholder=" " type="number" />
+                            <div class="form-element-bar"></div>
+                            <label class="form-element-label" for="field-x98ezh-s6s2g8-vfrkgb-ngrhef-atfkop">Numero de téléphone :</label>
+                        </div>
+                        <div class="form-checkbox form-checkbox-inline">
+                            <div class="form-checkbox-legend">Specifications :</div>
+                            <label class="form-checkbox-label">
+                                <input name=rap class="form-checkbox-field" type="checkbox" />
+                                <i class="form-checkbox-button"></i>
+                                <span>Animaux</span>
+                            </label>
+                            <label class="form-checkbox-label">
+                                <input name=pop class="form-checkbox-field" type="checkbox" />
+                                <i class="form-checkbox-button"></i>
+                                <span>Bagages</span>
+                            </label>
+                            <label class="form-checkbox-label">
+                                <input name=rock class="form-checkbox-field" type="checkbox" />
+                                <i class="form-checkbox-button"></i>
+                                <span>Fumeurs</span>
+                            </label>
+                        </div>
+                        <div class="form-element form-select">
+                            <select id="field-be1h8i-ll2hpg-q4efzm-nfjj1e-udkw5r" class="form-element-field">
+                                <option disabled selected value="" class="form-select-placeholder"></option>
+                                <option value="Rap">1</option>
+                                <option value="Pop">2</option>
+                                <option value="Rock">3</option>
+                                <option value="Metal">4</option>
+                                <option value="R&amp;B">5</option>
+                                <option value="R&amp;B">6</option>
+                            </select>
+                            <div class="form-element-bar"></div>
+                            <label class="form-element-label" for="field-be1h8i-ll2hpg-q4efzm-nfjj1e-udkw5r">Nombre de place à réserver</label>
+                        </div>
+                        <div class="form-element form-textarea">
+                            <textarea id="field-3naeph-0f3yuw-x153ph-dzmahy-qhkmgm" class="form-element-field" placeholder=" "></textarea>
+                            <div class="form-element-bar"></div>
+                            <label class="form-element-label" for="field-3naeph-0f3yuw-x153ph-dzmahy-qhkmgm">Description</label>
+                        </div>
+                    </fieldset>
+                    <div class="form-actions">
+                        <button href="home.html"class="form-btn" href="louer.html">Envoyer</button>
+                    </div>
+                </form>
+              </section>
+        </main>
+    </body>
+</html>

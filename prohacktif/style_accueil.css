@@ -1,0 +1,257 @@
+/*Positionnement fixed*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+header{
+	position:flex;
+    top:0;
+    margin-top: 0px;
+}
+
+main{
+	margin-right:50px;
+	margin-left:50px;
+	margin-top:0px;
+	margin-bottom:100px;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    background-color: white;
+    position:fixed;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #2058b8;  
+    
+}
+
+nav ul{
+    list-style-type: none;
+    width: 70%;
+}
+
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 15px;
+}
+
+nav a:hover{
+    color:#2058b8;
+    border-bottom: 2px solid #2058b8;
+}
+
+.sous_menu{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul li:hover .sous_menu{
+    display: block;
+}
+
+.sous_menu li{
+    float: none;
+    width: 100%;
+    text-align: right;
+}
+
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+.imageacc{
+    padding: 5px;
+    width: 1400px;
+    height: 500px;
+    margin-right: 25px;
+    margin-left: 25px;
+    float:none;
+
+}
+
+section{
+    margin: 40px 200px 40px 180px;
+    display: block;
+    text-align: justify;
+}
+
+section h1{
+    margin:auto;
+	background-color:white;
+    color:black;
+	font-size: x-large;
+    font-style: italic;	
+    background-position-x: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #0c2d64; 
+    height: 240px;
+    color: #CCC;
+    vertical-align: middle;
+    border-color: black;
+}
+
+.containerFooter > div {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.containerFooter {
+display: grid;
+grid-template-columns: 1fr 10fr 1fr 10fr;
+grid-gap: 1px;
+text-align: left;
+}
+
+.containerPrev > div {
+    border-radius: 5px;
+    padding: 5px;
+    vertical-align: center;
+    max-width: 500px;
+    max-height: 200px;
+    flex-flow: row nowrap;
+    align-items: center;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+    margin : 1px 0px 1px 0px;
+}
+
+.containerPrev {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 10px;
+    border-color: black;
+    text-align: center;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+    margin : 1px 0px 1px 0px;
+}
+
+.containerPrev2 > div {
+    border-radius: 5px;
+    padding: 5px;
+    vertical-align: center;
+    max-width: 500px;
+    max-height: 200px;
+    flex-flow: row nowrap;
+    align-items: center;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+    margin : 1px 0px 1px 0px;
+
+
+}
+
+.containerPrev2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    grid-gap: 10px;
+    border-color: black;
+    text-align: center;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+    margin : 1px 0px 1px 0px;
+}
+
+IMG.imageacc{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left:0px;
+    margin-right: 0px;
+    width: 100%;
+
+} 
+
+IMG.imagePrev{
+    padding: 5px;
+    width: 500px;
+    height: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+    float:none;
+}
+
+.Accserv01 {
+    display: flex;
+}
+
+.Accserv2{
+    padding: 20px;
+    margin : 20px 20px 20px 20px;
+    width: 80%;
+    height: 10px;
+    text-align: center;
+    color:#2058b8;
+} 
+.Accserv3{
+    padding: 20px;
+    margin : 20px 20px 20px 20px;
+    width: 80%;
+    height: 10px;
+    text-align: center;
+    color:#2058b8;
+} 
+
+.Accserv02 {
+    display: flex;
+}
+
+.Accserv4{
+    padding: 20px;
+    margin : 20px 20px 20px 20px;
+    width: 80%;
+    height: 10px;
+    text-align: center;
+    color:#2058b8;
+} 
+
+.Accserv5{
+    padding: 20px;
+    margin : 20px 20px 20px 20px;
+    width: 80%;
+    height: 10px;
+    text-align: center;
+    color:#2058b8;
+} 
+h2{
+    margin:auto;
+    color:#2058b8;
+	font-size:large;
+    font-style: italic;	
+    background-position-x: center;
+    text-align: center;
+    margin-bottom: 30px;
+}

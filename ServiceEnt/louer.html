@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Se déplacer</title>
+        <link rel="stylesheet" href="css/louer.css">
+    </head>
+    <body>
+        <header>
+            <h1>
+                Ent
+            </h1>
+            <div class="oui">
+                <h3>
+                    Se Déplacer
+                </h3>
+                <p>
+                    Au sein de l'université, grâce a vous.
+                </p>
+                <a href="https://www.univ-lille.fr" >
+                    <img class="logo" src="img/logo_univ.png"  height="75px" width="200px">
+                </a>
+            </div>
+        </header>
+        <nav>
+            <ul class="menu" id="menu"> 
+                <li  class="menu_item-home"><a href="home.html"><span class="navtext">Accueil</span></a></li>
+                <li  class="menu_item-move"><a href="effectuer.html"><span class="navtext">Effectuer un Déplacement</span></a></li>
+                <li  class="menu_item-location"><a href="louer.html"><span class="navtext">Louer un véhicule</span></a></li>
+                <li  class="menu_item-proposition"><a href="proposer.html"><span class="navtext">Proposer un trajet</span></a></li>
+                <li  class="menu_item-information"><a href="info.html"><span class="navtext">Information</span></a></li>
+            </ul>
+        </nav>
+        <main>
+            <section class="wohin">
+                <div class="limit">
+                  <div class="wohin-header">
+                    <h2>Louer un vehicule</h2>
+                  </div>
+              
+                  <div class="wohin-content">
+                    <p>De :</p>
+                    <input type="time" id="app-time" placeholder="heure de départ" name="appt" min="09:00" max="18:00" required>
+                    <p>A :</p>
+                    <input type="time" id="app-time" placeholder="heure de départ" name="appt" min="09:00" max="18:00" required>
+                    <p>Du</p>
+                    <input type="date" name="dateofbirth" id="dateofbirth">
+                    <p>Au</p>
+                    <input type="date" name="dateofbirth" id="dateofbirth">
+                  </div>
+                </div>
+              </section>
+              <section>
+                <form class="form-card">
+                    <fieldset class="form-fieldset">
+                        <legend class="form-legend">Formulaire</legend>
+                        <div class="form-radio form-radio-inline">
+                            <div class="form-radio-legend">Type de véhicule :</div>
+                            <label class="form-radio-label">
+                                <input name=pronoun class="form-radio-field" type="radio" />
+                                <i class="form-radio-button"></i>
+                                <span>Trotinette électrique</span>
+                            </label>
+                            <label class="form-radio-label">
+                                <input name=pronoun class="form-radio-field" type="radio" />
+                                <i class="form-radio-button"></i>
+                                <span>Trotinette</span>
+                            </label>
+                            <label class="form-radio-label">
+                                <input name=pronoun class="form-radio-field" type="radio" />
+                                <i class="form-radio-button"></i>
+                                <span>Skateboard</span>
+                            </label>
+                            <label class="form-radio-label">
+                                <input name=pronoun class="form-radio-field" type="radio" />
+                                <i class="form-radio-button"></i>
+                                <span>Skateboard électrique</span>
+                            </label>
+                            <label class="form-radio-label">
+                                <input name=pronoun class="form-radio-field" type="radio" />
+                                <i class="form-radio-button"></i>
+                                <span>Voiture électrique*</span>
+                            </label>
+                        </div>
+                        <div class="form-element form-input form-has-error">
+                            <input id="field-x98ezh-s6s2g8-vfrkgb-ngrhef-atfkop" class="form-element-field -hasvalue" placeholder=" " type="number" />
+                            <div class="form-element-bar"></div>
+                            <label class="form-element-label" for="field-x98ezh-s6s2g8-vfrkgb-ngrhef-atfkop">Numéro du véhicule :</label>
+                        </div>
+                        <div class="form-checkbox form-checkbox-inline">
+                            <div class="form-checkbox-legend">Assurance :</div>
+                            <label class="form-checkbox-label">
+                                <input name=rap class="form-checkbox-field" type="checkbox" />
+                                <i class="form-checkbox-button"></i>
+                                <span>Garantie réparation (+2e)</span>
+                            </label>
+                            <label class="form-checkbox-label">
+                                <input name=pop class="form-checkbox-field" type="checkbox" />
+                                <i class="form-checkbox-button"></i>
+                                <span>Garantie protection (+1.5e)</span>
+                            </label>
+                            <label class="form-checkbox-label">
+                                <input name=rock class="form-checkbox-field" type="checkbox" />
+                                <i class="form-checkbox-button"></i>
+                                <span>Garantie vol (+3e)</span>
+                            </label>
+                        </div>
+                        <div class="form-checkbox form-checkbox-inline">
+                            <div class="form-checkbox-legend">Etat du vehicule :</div>
+                            <label class="form-checkbox-label">
+                                <input name=rap class="form-checkbox-field" type="checkbox" />
+                                <i class="form-checkbox-button"></i>
+                                <span>Mauvais état</span>
+                            </label>
+                            <label class="form-checkbox-label">
+                                <input name=pop class="form-checkbox-field" type="checkbox" />
+                                <i class="form-checkbox-button"></i>
+                                <span>État correct</span>
+                            </label>
+                            <label class="form-checkbox-label">
+                                <input name=rock class="form-checkbox-field" type="checkbox" />
+                                <i class="form-checkbox-button"></i>
+                                <span>Bon état</span>
+                            </label>
+                            <label class="form-checkbox-label">
+                                <input name=rock class="form-checkbox-field" type="checkbox" />
+                                <i class="form-checkbox-button"></i>
+                                <span>Tres bon état</span>
+                            </label>
+                        </div>
+                        <div class="form-element form-input form-has-error">
+                            <input id="field-x98ezh-s6s2g8-vfrkgb-ngrhef-atfkop" class="form-element-field -hasvalue" placeholder=" " type="number" />
+                            <div class="form-element-bar"></div>
+                            <label class="form-element-label" for="field-x98ezh-s6s2g8-vfrkgb-ngrhef-atfkop">Numéro de téléphone :</label>
+                        </div>
+                    </fieldset>
+                    <div class="form-actions">
+                        <button class="form-btn" type="submit">Envoyer</button>
+                    </div>
+                </form>
+              </section>
+        </main>
+    </body>
+</html>
